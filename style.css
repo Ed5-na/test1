@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Baloo+Thambi+2:wght@700;800&family=Caesar+Dressing&family=Carter+One&family=Poppins:ital,wght@0,400;0,700;1,400;1,600&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:black;
+    display: flex
+}
+
+.aside{
+    position: absolute;
+    width: 900px;
+    height: 100vh;
+    margin-left: 700px;
+    margin-right: 100px;
+    border: 1px solid white;
+    background-color: white;
+}
+.img1{
+    position: relative;
+    margin-left: 220px;
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
+}
+.logo{
+    position: absolute;
+    color: white;
+    display: flex;
+    margin-bottom: 850px;
+    margin-top: 200px;
+    margin-left: 220px;
+    padding-left: 120px;
+    padding-right: 130px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.454);
+}
+.img2{
+   
+    width: 150px;
+    height: 100px;
+    
+}
+.odin{
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: 'Caesar Dressing', cursive;
+}
+form{
+    position: relative;
+   margin-left: 50px;
+   margin-right: 190px;
+   margin-top: 160px;
+   margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-style: italic; 
+    
+    
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: px;
+    border-radius: 6px;
+    font-size: 17px;
+    border-color: rgba(0, 0, 0, 0.082);
+}
+input:hover{
+    transform: 0.5s translate(-10px);
+    border-color: blue;
+    
+}
+.input{
+    display: flex;
+    
+}
+.mn{
+    padding-right: 70px;
+}
+.last{
+    position: absolute;
+    padding-bottom: 22pc;
+    padding-right: 1000px;
+    box-shadow: 0 0 10px 0 rgba(17, 17, 17, 0.503);
+    
+}
+button{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    padding: 13px 55px;
+    border-radius: 7px;
+    background-color: #596D48;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+button:hover{
+    transform: translateX(5px) translateY(5px);
+    background-color: rgba(88, 88, 145, 0.807);
+    border-color: #596D48;
+}
+.last #ed{
+    position: relative;
+    font-size: 17px;
+    margin: 20px 50px;
+    
+     
+}
